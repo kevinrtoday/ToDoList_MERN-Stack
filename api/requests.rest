@@ -1,0 +1,22 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "Zoom Meeting at 2pm",
+    "text": "Order Pizza",
+    "text": "Cypto live webinar 5pm EST",
+
+
+}
+###
+
+DELETE http://localhost:3001/todo/delete/61365f36f737998c5403e8e7
+
+
+###
+
+PUT http://localhost:3001/todo/complete/61365fdbf737998c5403e8f9 
